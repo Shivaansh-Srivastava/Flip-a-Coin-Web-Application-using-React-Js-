@@ -1,0 +1,16 @@
+import React from "react"
+
+class Coin extends React.Component {
+    render(){
+        return (
+            <div class='Coin'>
+                <img 
+                    style={{width:'200px',height:'200px'}}
+                    src={this.props.info.imgSrc}
+                />
+            </div>
+        )
+    }
+}
+
+export default Coin
